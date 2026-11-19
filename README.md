@@ -1,4 +1,4 @@
-\# Deploy and Configure VCF Installer
+# Deploy and Configure VCF Installer
 
 
 
@@ -6,21 +6,21 @@ This PowerShell script deploys the VMware Cloud Foundation (VCF) Installer 9.1.1
 
 
 
-\## Requirements
+## Requirements
 
 
 
-\- Windows with PowerShell 5.1 or later and VMware OVF Tool.
+- Windows with PowerShell 5.1 or later and VMware OVF Tool.
 
-\- The VCF Installer 9.1.1 OVA, available locally or on an accessible SMB share.
+- The VCF Installer 9.1.1 OVA, available locally or on an accessible SMB share.
 
-\- A vCenter account with permission to deploy the appliance, plus a target ESXi host, datastore, and VM network.
+- A vCenter account with permission to deploy the appliance, plus a target ESXi host, datastore, and VM network.
 
-\- For optional configuration, install VMware PowerCLI (`VMware.VimAutomation.Core`) and have the appliance credentials and a reachable VCF Download Tool URL. If depot copying is enabled, the appliance also needs access to a browsable HTTP(S) depot.
+- For optional configuration, install VMware PowerCLI (`VMware.VimAutomation.Core`) and have the appliance credentials and a reachable VCF Download Tool URL. If depot copying is enabled, the appliance also needs access to a browsable HTTP(S) depot.
 
 
 
-\## How to use
+## How to use
 
 
 
@@ -32,13 +32,13 @@ This PowerShell script deploys the VMware Cloud Foundation (VCF) Installer 9.1.1
 
 
 
-&#x20;  ```powershell
+  ```powershell
 
-&#x20;  .\\Deploy-and-Configure-VCFInstaller.ps1
+  .\\Deploy-and-Configure-VCFInstaller.ps1
 
-&#x20;  ```
+  ```
 
 
 
-&#x20;  The script prompts for vCenter credentials by default and writes logs to `.\\logs`.
+  The script prompts for vCenter credentials by default and writes logs to `.\\logs`.
 
